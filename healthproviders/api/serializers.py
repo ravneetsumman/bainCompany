@@ -1,6 +1,9 @@
 from rest_framework import serializers
 from .models import Provider
 
+class CurrencyField(serializers.RelatedField):
+    def to_representation(self, value):
+        return '$%s' % value
 
 class ProviderSerializer(serializers.ModelSerializer):
     """Serializer to map the Model instance into JSON format."""
@@ -12,10 +15,9 @@ class ProviderSerializer(serializers.ModelSerializer):
     ProviderZipCode = serializers.CharField(source='zipcode', read_only=True)
     HospitalReferralRegionDescription = serializers.CharField(source='hospital_referral', read_only=True)
     TotalDischarges = serializers.CharField(source='total_discharges', read_only=True)
-    AverageCoveredCharges = serializers.CharField(source='avg_cov_charges', read_only=True)
-    AverageTotalPayment = serializers.CharField(source='avg_total_payments', read_only=True)
-    AverageMedicarePayments = serializers.CharField(source='avg_medicare_payments', read_only=True)
-
+    AverageCoveredCharges = CurrencyField(source='avg_cov_charges', read_only=True)
+    AverageTotalPayment = CurrencyField(source='avg_total_payments', read_only=True)
+    AverageMedicarePayments = CurrencyField(source='avg_medicare_payments', read_only=True)
 
     class Meta:
         """Meta class to map serializer's fields with the model fields."""
