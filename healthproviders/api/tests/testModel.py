@@ -9,9 +9,9 @@ class ProviderModelTestCase(TestCase):
                                 street_address="2337 Vargas Place",
                                 city="Santa Clara",
                                 state="CA",
-                                zipcode=95050,
+                                zipcode="95050",
                                 hospital_referral="loremispum",
-                                total_discharges=34,
+                                total_discharges="34",
                                 avg_cov_charges=2300,
                                 avg_total_payments=3200,
                                 avg_medicare_payments=1500)
