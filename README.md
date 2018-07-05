@@ -3,7 +3,7 @@ Django 2.0.7
 mysqlclient 1.3.13
 MySQL Data Store
 
-# Project Setup
+# Instructions to run project
 
 1) Clone project
 2) Activate virtual enviroment using command source env/bin/activate
@@ -41,7 +41,7 @@ MySQL Data Store
       "AverageMedicarePayments": "$4091.04"
   }
   ```
-# Tests
+# Instructions to run tests
   Use this command to run tests:
 
     $ `python3 manage.py test`
