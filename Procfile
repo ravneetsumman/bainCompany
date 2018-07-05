@@ -1,1 +1,1 @@
-web: gunicorn healthproviders.wsgi
+web: gunicorn healthproviders.wsgi.application
