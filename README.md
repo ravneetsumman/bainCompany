@@ -24,9 +24,9 @@ MySQL Data Store
       "ProviderZipCode": "30078",
       "HospitalReferralRegionDescription": "GA - Atlanta",
       "TotalDischarges": "26",
-      "AverageCoveredCharges": "62727.23",
-      "AverageTotalPayment": "10747.46",
-      "AverageMedicarePayments": "9843.0"
+      "AverageCoveredCharges": "$62727.23",
+      "AverageTotalPayment": "$10747.46",
+      "AverageMedicarePayments": "$9843.0"
   },
   {
       "ProviderName": "SOUTH FULTON MEDICAL CENTER",
@@ -36,9 +36,9 @@ MySQL Data Store
       "ProviderZipCode": "30344",
       "HospitalReferralRegionDescription": "GA - Atlanta",
       "TotalDischarges": "24",
-      "AverageCoveredCharges": "54264.87",
-      "AverageTotalPayment": "5457.58",
-      "AverageMedicarePayments": "4091.04"
+      "AverageCoveredCharges": "$54264.87",
+      "AverageTotalPayment": "$5457.58",
+      "AverageMedicarePayments": "$4091.04"
   }
   ```
 # Tests
