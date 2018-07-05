@@ -1,3 +1,6 @@
+# Architecture & Solution
+This project follows standard Django app setup. The project loads health-care-providers data from a csv file into MySQL data store, and provides a rest api(/providers endpoint) to query providers.
+
 # Requirements
 Django 2.0.7
 mysqlclient 1.3.13
