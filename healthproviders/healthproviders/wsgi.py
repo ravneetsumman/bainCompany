@@ -9,9 +9,12 @@ https://docs.djangoproject.com/en/2.0/howto/deployment/wsgi/
 
 import os
 #from healthproviders import api as application
+from whitenoise.django import DjangoWhiteNoise
+
 
 from django.core.wsgi import get_wsgi_application
 
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "healthproviders.settings")
 #application = api
 application = get_wsgi_application()
+application = DjangoWhiteNoise(application)
