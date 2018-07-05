@@ -4,17 +4,17 @@ import sys
 from re import sub
 from decimal import Decimal
 
-cwd_path =  os.getcwd()
-csv_path = cwd_path+'/api/provider.csv'
+os.environ['DJANGO_SETTINGS_MODULE'] = 'settings'
 
+# make healthproviders impotable
+cwd_path =  os.getcwd()
 health_providers_path = cwd_path+'/api/healthproviders/'
 sys.path.append(health_providers_path)
 
-os.environ['DJANGO_SETTINGS_MODULE'] = 'settings'
-
 from api.models import Provider
- # Set path of new directory here
-#os.chdir(path) # changes the directory
+
+# open csv and import providers
+csv_path = cwd_path+'/api/provider.csv'
 with open(csv_path) as csvfile:
     reader = csv.DictReader(csvfile)
     for row in reader:

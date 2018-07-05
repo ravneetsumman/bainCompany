@@ -1,0 +1,86 @@
+[
+    {
+        "ProviderName": "EMORY UNIVERSITY HOSPITAL",
+        "street_address": "1364 CLIFTON ROAD, NE",
+        "city": "ATLANTA",
+        "state": "GA",
+        "zipcode": 30322,
+        "hospital_referral": "GA - Atlanta",
+        "total_discharges": 26,
+        "avg_cov_charges": 28105.69,
+        "avg_total_payments": 9719.03,
+        "avg_medicare_payments": 6058.38
+    },
+    {
+        "ProviderName": "JOHN D ARCHBOLD MEMORIAL HOSPITAL",
+        "street_address": "915 GORDON AVENUE & MIMOSA DRIVE",
+        "city": "THOMASVILLE",
+        "state": "GA",
+        "zipcode": 31792,
+        "hospital_referral": "FL - Tallahassee",
+        "total_discharges": 26,
+        "avg_cov_charges": 26322.26,
+        "avg_total_payments": 5687.57,
+        "avg_medicare_payments": 4694.8
+    },
+    {
+        "ProviderName": "GWINNETT MEDICAL CENTER",
+        "street_address": "1000 MEDICAL CENTER BOULEVARD",
+        "city": "LAWRENCEVILLE",
+        "state": "GA",
+        "zipcode": 30045,
+        "hospital_referral": "GA - Atlanta",
+        "total_discharges": 27,
+        "avg_cov_charges": 28352.44,
+        "avg_total_payments": 6364.48,
+        "avg_medicare_payments": 5364.18
+    },
+    {
+        "ProviderName": "COLISEUM MEDICAL CENTER",
+        "street_address": "350 HOSPITAL DRIVE",
+        "city": "MACON",
+        "state": "GA",
+        "zipcode": 31217,
+        "hospital_referral": "GA - Macon",
+        "total_discharges": 25,
+        "avg_cov_charges": 26099.72,
+        "avg_total_payments": 5939.4,
+        "avg_medicare_payments": 4807.36
+    },
+    {
+        "ProviderName": "PIEDMONT FAYETTE HOSPITAL",
+        "street_address": "1255 HIGHWAY 54 WEST",
+        "city": "FAYETTEVILLE",
+        "state": "GA",
+        "zipcode": 30214,
+        "hospital_referral": "GA - Atlanta",
+        "total_discharges": 24,
+        "avg_cov_charges": 27794.7,
+        "avg_total_payments": 5543.83,
+        "avg_medicare_payments": 4302.16
+    },
+    {
+        "ProviderName": "ST JOSEPH'S HOSPITAL - SAVANNAH",
+        "street_address": "11705 MERCY BOULEVARD",
+        "city": "SAVANNAH",
+        "state": "CA",
+        "zipcode": 31419,
+        "hospital_referral": "GA - Savannah",
+        "total_discharges": 24,
+        "avg_cov_charges": 15612.91,
+        "avg_total_payments": 4795.75,
+        "avg_medicare_payments": 3907.58
+    },
+    {
+        "ProviderName": "MEDICAL CENTER OF CENTRAL GEORGIA",
+        "street_address": "777 HEMLOCK STREET",
+        "city": "MACON",
+        "state": "CA",
+        "zipcode": 31201,
+        "hospital_referral": "GA - Macon",
+        "total_discharges": 27,
+        "avg_cov_charges": 19559.55,
+        "avg_total_payments": 6284.85,
+        "avg_medicare_payments": 5536.11
+    }
+  ]

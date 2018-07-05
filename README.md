@@ -1,1 +1,1 @@
-# bainCompany
+# bainCompanyChallenge
