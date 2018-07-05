@@ -1,1 +1,1 @@
-web: gunicorn bainCompany.wsgi
+web: gunicorn healthproviders.wsgi
