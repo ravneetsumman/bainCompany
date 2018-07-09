@@ -1,1 +1,1 @@
-web: gunicorn -b historic-biscayne-52727.herokuapp.com healthproviders.wsgi:application
+web: gunicorn -b 0.0.0.0:26967 healthproviders.wsgi:application
