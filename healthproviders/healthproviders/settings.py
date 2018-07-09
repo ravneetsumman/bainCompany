@@ -89,19 +89,19 @@ DATABASES = {
     'HOST': 'localhost',
     'PORT': '3306',
     }
-}
+}"""
 DATABASES = {
     'default': {
-    'ENGINE': 'django.db.backends.mysql',
+    'ENGINE': 'django.db.backends.postgresql_psycopg2',
     'NAME': 'd1gr8qmmrlkkai',
     'USER': 'bdinhilkvtoqmk',
     'PASSWORD': 'deee2ee25aa07605e67fa986f7a0f0bafb9316cb745e32ffedffc2357fe7710d',
     'HOST': 'ec2-23-21-162-90.compute-1.amazonaws.com',
     'PORT': '5432',
     }
-}"""
+}
 
-DATABASES = { 'default': dj_database_url.config('postgres://bdinhilkvtoqmk:deee2ee25aa07605e67fa986f7a0f0bafb9316cb745e32ffedffc2357fe7710d@ec2-23-21-162-90.compute-1.amazonaws.com:5432/d1gr8qmmrlkkai') }
+#DATABASES = { 'default': dj_database_url.config('postgres://bdinhilkvtoqmk:deee2ee25aa07605e67fa986f7a0f0bafb9316cb745e32ffedffc2357fe7710d@ec2-23-21-162-90.compute-1.amazonaws.com:5432/d1gr8qmmrlkkai') }
 
 # Password validation
 # https://docs.djangoproject.com/en/2.0/ref/settings/#auth-password-validators
