@@ -1,1 +1,1 @@
-web: gunicorn -b http://0.0.0.0:26967 healthproviders.wsgi:application
+web: python healthproviders/manage.py run_gunicorn -b 0.0.0.0:26967 -w 3
