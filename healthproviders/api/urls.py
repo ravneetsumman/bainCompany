@@ -1,4 +1,4 @@
-from django.conf.urls import url, include
+from django.urls import url, include
 from rest_framework.urlpatterns import format_suffix_patterns
 from .views import Providers
 from api import views
