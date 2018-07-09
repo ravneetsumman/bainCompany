@@ -28,6 +28,7 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['historic-biscayne-52727.herokuapp.com', '127.0.0.1']
 
+port = int(os.environ.get(“PORT”, 5000))
 
 # Application definition
 
