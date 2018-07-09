@@ -13,7 +13,7 @@ https://docs.djangoproject.com/en/2.0/ref/settings/
 import os
 #import django_heroku
 import dj_database_url
-import psycopg2
+#import psycopg2
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -104,7 +104,7 @@ DATABASES = {
 """
 #DATABASES = { 'default': dj_database_url.config('postgres://bdinhilkvtoqmk:deee2ee25aa07605e67fa986f7a0f0bafb9316cb745e32ffedffc2357fe7710d@ec2-23-21-162-90.compute-1.amazonaws.com:5432/d1gr8qmmrlkkai') }
 
-DATABASES = { 'default': dj_database_url.config() }
+DATABASES = { 'default': dj_database_url.config(conn_max_age=600, ssl_require=True) }
 
 # Password validation
 # https://docs.djangoproject.com/en/2.0/ref/settings/#auth-password-validators
