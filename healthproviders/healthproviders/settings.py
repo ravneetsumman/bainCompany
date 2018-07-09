@@ -31,7 +31,6 @@ DEBUG = False
 ALLOWED_HOSTS = ['historic-biscayne-52727.herokuapp.com', '127.0.0.1']
 
 
-
 # Application definition
 
 INSTALLED_APPS = [
