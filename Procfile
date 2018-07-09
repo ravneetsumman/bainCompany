@@ -1,1 +1,1 @@
-web: gunicorn healthproviders
+web: gunicorn healthproviders:app
