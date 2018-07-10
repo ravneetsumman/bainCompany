@@ -20,7 +20,7 @@ from django.urls import include, path, re_path, URLResolver, URLPattern
 urlpatterns = [
     path('admin/', admin.site.urls),
     #path('', include('api.urls')),
-    re_path(r'^', include('api.urls')),
+    #re_path(r'^', include('api.urls')),
 ]
 
 #urlpatterns = format_suffix_patterns(urlpatterns)
