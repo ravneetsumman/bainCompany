@@ -23,7 +23,7 @@ urlpatterns = [
     #re_path('', include('api.urls')),
     #re_path(r'^', include('api.urls')),
     #url(r'^', include('api.urls')),
-    path('api/', include('api.urls'))
+    #path('api/', include('api.urls'))
 ]
 
 #urlpatterns = format_suffix_patterns(urlpatterns)
