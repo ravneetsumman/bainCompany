@@ -15,15 +15,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import include, path, re_path, URLResolver, URLPattern
-#from rest_framework.urlpatterns import format_suffix_patterns
+from rest_framework.urlpatterns import format_suffix_patterns
+#from django.conf.urls import url
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    #re_path('', include('api.urls')),
-    #re_path(r'^', include('api.urls')),
-    #url(r'^', include('api.urls')),
-    #path('api/', include('api.urls'))
+    URLResolver(r'^$', include('api.urls')),
 ]
 
 #urlpatterns = format_suffix_patterns(urlpatterns)
