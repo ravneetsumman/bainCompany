@@ -79,7 +79,7 @@ WSGI_APPLICATION = 'healthproviders.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
-
+"""
 DATABASES = {
     'default': {
     'ENGINE': 'django.db.backends.mysql',
@@ -90,7 +90,7 @@ DATABASES = {
     'PORT': '3306',
     }
 }
-"""
+
 DATABASES = {
     'default': {
     'ENGINE': 'django.db.backends.postgresql_psycopg2',
@@ -103,9 +103,9 @@ DATABASES = {
 }
 
 #DATABASES = { 'default': dj_database_url.config('postgres://bdinhilkvtoqmk:deee2ee25aa07605e67fa986f7a0f0bafb9316cb745e32ffedffc2357fe7710d@ec2-23-21-162-90.compute-1.amazonaws.com:5432/d1gr8qmmrlkkai') }
-
-DATABASES = { 'default': dj_database_url.config(conn_max_age=600, ssl_require=True) }
 """
+DATABASES = { 'default': dj_database_url.config(conn_max_age=600, ssl_require=True) }
+
 # Password validation
 # https://docs.djangoproject.com/en/2.0/ref/settings/#auth-password-validators
 
