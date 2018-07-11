@@ -28,7 +28,7 @@ SECRET_KEY = '9$^2%ni6wx=jbdx(((z-ju(4w&l88@k@kt08vj*o5$ok7uv1v9'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['historic-biscayne-52727.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['historic-biscayne-52727.herokuapp.com']
 
 
 # Application definition
