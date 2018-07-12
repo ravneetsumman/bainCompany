@@ -24,8 +24,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # SECURITY WARNING: keep the secret key used in production secret!
 
-SECRET_KEY = os.environ['SECRET_KEY']
-#SECRET_KEY = '9$^2%ni6wx=jbdx(((z-ju(4w&l88@k@kt08vj*o5$ok7uv1v9'
+#SECRET_KEY = os.environ['SECRET_KEY']
+SECRET_KEY = '9$^2%ni6wx=jbdx(((z-ju(4w&l88@k@kt08vj*o5$ok7uv1v9'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
@@ -149,7 +149,7 @@ USE_TZ = True
 PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 
 
-STATIC_ROOT = os.path.join(BASE_DIR, ‘staticfiles’)
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 STATIC_URL = '/static/'
 
